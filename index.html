@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+container {
+  padding:200px;
+  background: grey;
+  font family:arial;
+}
+.menu ul{
+   display:inline-flex;
+   margin:50px;
+}
+.menu ul li{
+   list-style:none;
+   margin:0 20px;
+}
+.logo img{
+      width:20px;
+      margin-top:-7px
+      margin-right:48
+}
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 25px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color:grey;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="container">
+</div>
+<div class="main">
+<h1>
+<div class="menu">
+<ul>
+<li class="logo"><img src="sabbu.jpg"></li>
+<li>About<li>
+<li>Basic Information<li>
+<li>Contact<li>
+</ul>
+<h1>MY INTRODUCTION</h1>
+<hr>
+<h2>Hello!</h2>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+    <img src="aha.jpg" height=550 width=400>
+<div class "row">
+   <div class="column">
+      <div class="content"
+  </div>
+      <h3>BASIC INFORMATION</h3>
+      <p>I am Sabhyata Adhikari. Currently studying in grade 9 at St.Xavier's School Godavari. I was born on august 17, 2006. My hobbies are travelling, adventurous activities, learning new things, dancing/singing and swimming. I live in Mahalaxmisthan, Lalitpur.</p>
+    </div>
+  <div class="column">
+    <div class="content">
+          <h5>MY CONTACT</h5>
+      <p>e-mail: sabhyata201434@gmail.com</p>
+      <p>facebook: Sabhyata Adhikari</p>
+    </div>
+   
+  <!-- END GRID -->
+</div>
+
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
